@@ -1,0 +1,90 @@
+.dish-item {
+  min-width: 80vw;
+  min-height: 30vh;
+  border: 3px solid rgb(170, 170, 173);
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.av-card {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+}
+.circle {
+  height: 30px;
+  width: 30px;
+  background-color: green;
+  border-radius: 15px;
+}
+.details {
+  padding-left: 10px;
+  width: 22vw;
+}
+.dish-name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.dish-currency {
+  font-weight: 500;
+  font-size: 16px;
+}
+.dish-desc {
+  color: rgb(180, 174, 174);
+  font-size: 16px;
+}
+.button-container {
+  height: 40px;
+  width: 120px;
+  border-radius: 22px;
+  background-color: green;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+.calaries {
+  color: orange;
+  font-size: 16px;
+  font-weight: bold;
+}
+.img {
+  height: 200px;
+  width: 200px;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.count {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.nt {
+  color: red;
+  font-size: 16px;
+  font-weight: 400;
+}
+.cust {
+  color: blue;
+}

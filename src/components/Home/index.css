@@ -1,0 +1,23 @@
+.app-container {
+  min-height: 100vh;
+}
+
+.tabs-list {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 0px;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .tabs-list {
+    margin-top: 48px;
+  }
+}
+.dish-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
